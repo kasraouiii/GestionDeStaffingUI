@@ -32,7 +32,7 @@ import Language from "@material-ui/icons/Language";
 // core components/views for Admin layout
 import DashboardPage from "views/Dashboard/Dashboard.js";
 import UserProfile from "views/UserProfile/UserProfile.js";
-import TableList from "views/TableList/TableList.js";
+import Projet from "views/Projet/Projet.js";
 import Demandes from "views/Demande/Demande.js";
 
 import Maps from "views/Maps/Maps.js";
@@ -65,7 +65,7 @@ const dashboardRoutes = [
     name: "Projets",
     rtlName: "المشاريع",
     icon: "content_paste",
-    component: TableList,
+    component: Projet,
     layout: "/admin"
   },
   {
